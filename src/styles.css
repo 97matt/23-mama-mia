@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  color: #43a047;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: linear-gradient(to Top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godubrovnik.com%2Fwp-content%2Fuploads%2Fpizza.jpg&f=1&nofb=1&ipt=24f3f60a47c383fc8609c4fa49092d00350eba70a4b92470f5f2f88bd2377a2a&ipo=images");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+hr {
+  width: 80%;
+  border-color: lightgray;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+.card {
+  width: 300px;
+  border: 2px solid lightgray;
+}
+.card hr,
+.pizzaDetailsCard hr {
+  width: 100%;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.card-content {
+  padding: 10px;
+}
+.title {
+  font-size: 20px;
+}
+
+.ingredients {
+  padding: 0px 0px 20px 0px;
+  margin-top: -10px;
+}
+.ingredients p {
+  margin-bottom: -15px;
+  font-size: 12px;
+}
+
+.cta p {
+  font-size: 20px;
+}
+.cta {
+  text-align: center;
+}
+.cta div {
+  margin-top: -10px;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+}
+.view {
+  background-color: #43a047;
+  margin-right: 20px;
+}
+.addToCart {
+  background-color: red;
+}
+
+.pizzaDetailsCard {
+  display: flex;
+  border: 2px solid lightgray;
+  margin: 3%;
+}
+
+.pizzaDetailsCard .content {
+  padding: 20px;
+}
+
+.priceBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cartContainer {
+  margin: 3%;
+  background-color: lightgray;
+  padding: 50px;
+}
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  gap: 10px;
+}
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+.first,
+.second {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+.first img {
+  width: 100px;
+  border-radius: 10px;
+}
